@@ -156,7 +156,7 @@ const UsersForm = ({addUser, userEdit, selectUpdateUser, updateUser}) => {
                    />
                     {validationBirthday !== null ?(<p className='validador'>{validationBirthday}</p>):(<div></div>)}
                 </div>
-                <div>Los campos con * son obligatorios</div><br></br>
+
                 
 
                 <button className='boton'>
