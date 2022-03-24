@@ -57,17 +57,17 @@ const UsersForm = ({addUser, userEdit, selectUpdateUser, updateUser}) => {
         }else{
             console.log(user);
             console.log(userEdit);
-            if (user["first_name"] === undefined) {
+            if (user["first_name"] == undefined) {
                 errorValidation.push("Por favor ingresa el nombre");
                 setValidationFirst_name("Por favor ingresa el nombre");
             }
 
-            if (user["last_name"] === undefined) {
+            if (user["last_name"] == undefined) {
                 errorValidation.push("Por favor ingresa el apellido");
                 setValidationLast_name("Por favor ingresa el apellido");
             }
 
-            if (user["email"] === undefined) {
+            if (user["email"] == undefined) {
                 errorValidation.push("Por favor ingresa el email");
                 setValidationEmail("Por favor ingresa el email");
             }
@@ -83,12 +83,12 @@ const UsersForm = ({addUser, userEdit, selectUpdateUser, updateUser}) => {
                 }
             }
 
-            if (user["password"] === undefined) {
+            if (user["password"] == undefined) {
                 errorValidation.push("Por favor ingresa la contraseña");
                 setValidationPassword("Por favor ingresa la contraseña");
             }
 
-            if (user["birthday"] === undefined) {
+            if (user["birthday"] == undefined) {
                 errorValidation.push("Por favor ingresa la fecha de tu cumpleaños");
                 setValidationBirthday("Por favor ingresa la fecha de tu cumpleaños");
             }
