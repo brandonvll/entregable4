@@ -36,7 +36,6 @@ const UsersForm = ({addUser, userEdit, selectUpdateUser, updateUser}) => {
     const submit = e => {
         e.preventDefault();
             const user = {
-                id: Date.now(),
                 first_name,
                 last_name,
                 email,
